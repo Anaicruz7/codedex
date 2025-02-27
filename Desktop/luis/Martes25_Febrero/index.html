@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="arte.css">
+    <script src="codigo.js"></script>
+</head>
+<body>
+
+    <form action="xpagina" method="post">
+        <div>
+        <label for="numero1">Digite un Numero:</label>
+        <input type="number" id="numero1" />
+        </div>
+        <div>
+        <label for="numero2">Digite otro Numero:</label>
+        <input type="number" id="numero2" />
+        </div>
+        <div>
+            <button type="submit">Enviar informacion</button>
+        </div>
+        <div>
+            <button type="button" onclick="sumar();">Realizar suma...</button>
+            <input type="reset" id="borra" value="Borrar .."/>
+           
+            <label for="suma">La suma es :</label>
+         <input type="number" value="0" id="suma" disabled/>
+        </div>
+       
+       </form>
+    
+</body>
+</html>
